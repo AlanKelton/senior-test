@@ -1,6 +1,6 @@
 package com.validation.senior_test.model;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class Apolice {
@@ -10,8 +10,9 @@ public class Apolice {
     private String numero;
     private String segurado;
     private Double valorSegurado;
+    private LocalDateTime inicioVigencia;
 
-    private LocalDate dataVigencia;
+    private LocalDateTime fimVigencia;
 
     private List<Sinistro> sinistros;
 
