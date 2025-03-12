@@ -1,7 +1,6 @@
 package com.validation.senior_test.model;
 
-
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class Sinistro {
 
@@ -9,7 +8,7 @@ public class Sinistro {
     private Long id;
 
     private String descricao;
-    private LocalDate dataOcorrencia;
+    private LocalDateTime dataOcorrencia;
     private Double valorIndenizacao;
 
     private Apolice apolice;
